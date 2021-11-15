@@ -1,70 +1,3 @@
-# SelectPdf Online REST API - Perl Client
-
-## HTML To PDF API - Perl Client
-
-SelectPdf HTML To PDF Online REST API is a professional solution that lets you create PDF from web pages and raw HTML code in your applications. The API is easy to use and the integration takes only a few lines of code.
-
-## Features
-
-* Create PDF from any web page or html string.
-* Full html5/css3/javascript support.
-* Set PDF options such as page size and orientation, margins, security, web page settings.
-* Set PDF viewer options and PDF document information.
-* Create custom headers and footers for the pdf document.
-* Hide web page elements during the conversion.
-* Automatically generate bookmarks during the html to pdf conversion.
-* Support for partial page conversion.
-* Easy integration, no third party libraries needed.
-* Works in all programming languages.
-* No installation required.
-
-Sign up for for free to get instant API access to SelectPdf [HTML to PDF API](https://selectpdf.com/html-to-pdf-api/).
-
-## Pdf Merge API
-
-SelectPdf offers a REST API that can be used to merge PDF documents from local disk or remote url.
-
-## Pdf To Text API
-
-SelectPdf offers a REST API that can be used to extract text from local or remote PDF documents and search in existing PDF documents.
-
-
-## Installation
-
-Download [selectpdf-api-perl-client-1.4.0.zip](https://github.com/selectpdf/selectpdf-api-perl-client/releases/download/1.4.0/selectpdf-api-python-client-1.4.0.zip), unzip it and run:
-
-```
-cd selectpdf-api-perl-client-1.4.0
-perl Makefile.PL
-make
-make test
-make install
-```
-
-OR
-
-Install SelectPdf Perl Client for Online API via CPAN: [SelectPdf on CPAN](https://metacpan.org/dist/SelectPdf).
-
-```
-cpanm SelectPdf
-```
-
-OR
-
-Clone [selectpdf-api-perl-client](https://github.com/selectpdf/selectpdf-api-perl-client) from Github and install the library.
-
-```
-git clone https://github.com/selectpdf/selectpdf-api-perl-client
-cd selectpdf-api-perl-client
-perl Makefile.PL
-make
-make test
-make install
-```
-
-## Sample Code
-
-```
 local $| = 1;
 
 use strict;
@@ -136,5 +69,3 @@ eval {
 if ($@) {
     print "An error occurred: $@\n";  
 }
-
-```
