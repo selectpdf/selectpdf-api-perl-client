@@ -31,7 +31,7 @@ SelectPdf offers a REST API that can be used to extract text from local or remot
 
 ## Installation
 
-Download [selectpdf-api-perl-client-1.4.0.zip](https://github.com/selectpdf/selectpdf-api-perl-client/releases/download/1.4.0/selectpdf-api-python-client-1.4.0.zip), unzip it and run:
+Download [selectpdf-api-perl-client-1.4.0.zip](https://github.com/selectpdf/selectpdf-api-perl-client/releases/download/1.4.0/selectpdf-api-perl-client-1.4.0.zip), unzip it and run:
 
 ```
 cd selectpdf-api-perl-client-1.4.0
