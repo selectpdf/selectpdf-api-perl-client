@@ -64,7 +64,7 @@ make install
 
 ## Sample Code
 
-```
+```perl
 local $| = 1;
 
 use strict;
